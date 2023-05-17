@@ -28,9 +28,9 @@ const validator = {
     }
   },
 
-  maskify: function (creditCardNumber){
+  maskify: function (creditCardNumber){ 
   
-    return creditCardNumber.replace(/.(?=.{4})/g,"#")
+    return creditCardNumber.replace(/.(?=.{4})/g,"#") // método utilizado para substituir os números e passar um novo valor que é #
      
   }
 
