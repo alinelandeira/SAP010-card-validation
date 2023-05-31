@@ -1,7 +1,7 @@
 const validator = {
 
   isValid: function (creditCardNumber) {
-    const transfCard = creditCardNumber.split("").reverse();
+    const transfCard = creditCardNumber.split("").reverse(); // metodo usado para inverter a ordem dos números
     
     let retCard = 0;
 
@@ -30,7 +30,7 @@ const validator = {
 
   maskify: function (creditCardNumber){ 
   
-    return creditCardNumber.replace(/.(?=.{4})/g,"#") // método utilizado para substituir os números e passar um novo valor que é #
+    return creditCardNumber.replace(/.(?=.{4})/g,"#") 
      
   }
 
